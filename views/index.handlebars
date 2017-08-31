@@ -1,0 +1,21 @@
+<div class="container bg1">
+  {{#each news}}
+  <div class="row formating">
+    <div class="col-sm-4">
+      <img src="{{this.photo}}" class="img-responsive" />
+    </div>
+    <div class="col-sm-8">
+
+      <h2>{{this.title}}</h2>
+      <p>{{this.body}} <a href="{{this.link}}" > Read more</a></p>
+      <div>
+        <button type="button" class="btn btn-info"  value="{{this._id}}" >
+         <span class="glyphicon glyphicon-list-alt"></span> Comments
+         </button>
+      </div>
+
+    </div>
+
+  </div>
+  {{/each}}
+</div>

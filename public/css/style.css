@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color:#007;
+    color:#fff;
+    font-size: 3em;
+    padding: 10px 10px;
+}
+
+.bg1{
+     background-color:#fff;
+}
+
+.comnt{
+    background-color:#cef;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.formating{
+    padding: 10px;
+    border-bottom: 1px solid #888;
+}
+
+.formating p{
+    color:#777;
+}
+
+.btndelete{
+    font-size: 8px;
+}
+
+footer{
+    background-color: #333;
+    text-align: center;
+    color:#ddd;
+    padding: 30px 10px;
+}
+
+.fine-desc{
+    font-size: 8px;
+}
+
+footer a{
+    color: #ddd;
+}

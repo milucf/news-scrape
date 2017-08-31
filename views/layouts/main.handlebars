@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="javascript/app.js"></script>
+    <title>NY Times Scrape</title>
+</head>
+
+<body>
+    <header>
+        <span class="glyphicon glyphicon-globe"></span> News Scraper
+    </header>
+    {{{ body }}}
+      <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <div id="comnt-header"></div>
+          <div class="comnt">
+              <label for="comment">Post A Comment:</label>
+               <textarea class="form-control" rows="3" id="comment"></textarea>
+               <br>
+               <button type="button" id="btnpost" class="btn btn-default">Post <span class="glyphicon glyphicon-share"></span></button>
+          </div>
+        </div>
+        <div class="modal-body">
+            <h4>Comments</h4>
+          <div id="comments-list">Loading comments...</div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+   <!--End Modal -->
+    <footer><a href="/api/news">News API </a>| <span class="fine-desc">powered by milucf<span></footer>
+</body>
+
+</html>
