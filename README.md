@@ -12,7 +12,7 @@ Users are able to leave comments on the articles displayed and revisit them late
 
 # How To Setup And Run
 
-You must have Mongo db runnig in your local Computer to test this app
+You must have Mongo db running in your local Computer to test this app
 
 Download this repository. 
 
